@@ -47,5 +47,33 @@ export const channels = [
         name: "DAZN 2",
         poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/dazn2.jpg",
         genres: ["Sport"]
+    },
+    {
+        id: "vavoo_SKY SPORT ARENA|group:it",
+        type: "tv",
+        name: "Sky Sport Arena",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skyarena.jpg",
+        genres: ["Sport"]
+    },
+    {
+        id: "vavoo_SKY SPORT CALCIO|group:it",
+        type: "tv",
+        name: "Sky Sport Calcio",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycalcio.jpg",
+        genres: ["Sport", "Calcio"]
+    },
+    {
+        id: "vavoo_SKY SPORT FOOTBALL|group:it",
+        type: "tv",
+        name: "Sky Sport Football",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skyfootball.jpg",
+        genres: ["Sport", "Calcio"]
+    },
+    {
+        id: "vavoo_SKY SPORT 4K|group:it",
+        type: "tv",
+        name: "Sky Sport 4K",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/sky4k.jpg",
+        genres: ["Sport", "4K"]
     }
 ];
