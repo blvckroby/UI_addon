@@ -1,7 +1,8 @@
 const PORT = process.env.PORT || 7000;
 
 const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
-const fetch = require("node-fetch");
+const response = await fetch(url);
+const data = await response.json();
 
 const BASE = "https://tvvoo.hayd.uk/cfg-it";
 
