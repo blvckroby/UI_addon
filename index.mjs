@@ -10,8 +10,8 @@ const BASE = "https://tvvoo.hayd.uk/cfg-it";
 const manifest = {
     id: "org.roby.proxy.tvvoo",
     version: "1.0.0",
-    name: "Roby TVVoo Proxy",
-    description: "Proxy personalizzato dell'addon TVVoo",
+    name: "Ultra Instinct Proxy ADDON for TVVoo",
+    description: "Questo è un addon proxy personalizzato valido per l'addon TVVoo e serve per modificare le copertine di alcuni eventi",
     background: "https://images5.alphacoders.com/890/thumb-1920-890441.png",
     logo: "https://wallpapercave.com/wp/wp11409149.png",
     catalogs: [
