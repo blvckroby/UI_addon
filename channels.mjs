@@ -68,5 +68,19 @@ export const channels = [
         name: "Sky Sport 4K",
         poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/sky4k.jpg",
         genres: ["Sport", "4K"]
+    },
+    {
+        id: "vavoo_SKY CINEMA ACTION|group:it",
+        type: "tv",
+        name: "Sky Cinema Action",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/sky4k.jpg",
+        genres: ["Cinema", "Azione"]
+    },
+    {
+        id: "vavoo_SKY CINEMA COLLECTION|group:it",
+        type: "tv",
+        name: "Sky Cinema Collection",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/sky4k.jpg",
+        genres: ["Cinema"]
     }
 ];
