@@ -1,8 +1,9 @@
 const PORT = process.env.PORT || 7000;
 
 const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
-const response = await fetch(url);
-const data = await response.json();
+
+// fetch nativo di Node 18 → NON serve node-fetch
+// nessun require necessario
 
 const BASE = "https://tvvoo.hayd.uk/cfg-it";
 
@@ -62,13 +63,9 @@ builder.defineCatalogHandler(async (args) => {
                 poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/dazn2.jpg",
                 genres: ["Sport"]
             }
-
         ]
-
-    }
+    };
 });
-
-
 
 // 2️⃣ Stream
 builder.defineStreamHandler(async (args) => {
@@ -80,14 +77,11 @@ builder.defineStreamHandler(async (args) => {
                     url: "https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/_nuhEl-aHl395l6DmSzW3GBgGxR3n6u3bPwO4AUUI5KxDPqQ2ApWHEr7fqocyi_FwLsPqB5UExfcSUBw0Vqsgci6I3KScdjFhHVHLwtEO84f8YPsIpDYrQivzXPmhGr4uo6nGhQj8iyS890DDgXxoMiNFPNZtc35HY5n8TX2FUMr3CJERF64LXFEl8ILF2YQI2rXfBNzo6d1lUuJOb-_efPVRMS0mCvZYaLHtlA2h3-g6PIdIuf-wLJpfB30VsBZsHXFQ6CjB0F6u2dcTfAeUgKEuDsb3-TXvlOjfq8BeBE/hls/index.m3u8"
                 }
             ]
-        }
+        };
     }
 
-    return { streams: [] }
+    return { streams: [] };
 });
-
-
-
 
 // 3️⃣ Meta
 builder.defineMetaHandler(async (args) => {
@@ -100,12 +94,13 @@ builder.defineMetaHandler(async (args) => {
                 poster: "https://raw.githubusercontent.com/blvckroby/provaTV/main/skyf1.jpg",
                 description: "Sky Sport F1 – Live"
             }
-        }
+        };
     }
 
-    return { meta: {} }
+    return { meta: {} };
 });
-
 
 // 4️⃣ Avvio server
 serveHTTP(builder.getInterface(), { port: PORT });
+
+console.log("Addon avviato sulla porta:", PORT);
