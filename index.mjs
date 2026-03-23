@@ -8,6 +8,8 @@ const manifest = {
     version: "1.1.2",
     name: "Ultra Instinct Proxy ADDON for TVVoo",
     description: "Addon proxy personalizzato",
+    background: "https://images5.alphacoders.com/890/thumb-1920-890441.png",
+    logo: "https://wallpapercave.com/wp/wp11409149.png",
     catalogs: [
         { type: "tv", id: "tvvoo-proxy", name: "TVVoo Proxy" }
     ],
