@@ -31,7 +31,7 @@ export const channels = [
         id: "vavoo_SKY SPORT TENNIS|group:it",
         type: "tv",
         name: "Sky Sport Tennis",
-        poster: "https://raw.githubusercontent.com/blvckroby/provaTV/main/skytennis.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skytennis.jpg",
         genres: ["Sport"]
     },
     {
