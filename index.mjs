@@ -1,6 +1,6 @@
 const PORT = process.env.PORT || 7000;
 
-const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
+import { addonBuilder, serveHTTP } from "stremio-addon-sdk";
 
 // fetch nativo di Node 18 → NON serve node-fetch
 // nessun require necessario
