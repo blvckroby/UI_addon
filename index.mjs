@@ -48,13 +48,17 @@ builder.defineMetaHandler(async (args) => {
     if (channel) {
         return {
             meta: {
-                ...channel,
-                description: `${channel.name} – Live`
+                id: channel.id,        // ⚠️ STESSO ID TvVoo
+                type: "tv",
+                name: channel.name,
+                poster: channel.poster,   // tua immagine
+                background: channel.poster,
+                description: `${channel.name} – Live 🔴`
             }
         };
     }
 
-    return { meta: {} };
+    return { meta: null };
 });
 
 // 4️⃣ Avvio server
