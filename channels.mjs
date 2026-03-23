@@ -63,13 +63,6 @@ export const channels = [
         genres: ["Sport", "Calcio"]
     },
     {
-        id: "vavoo_SKY SPORT FOOTBALL|group:it",
-        type: "tv",
-        name: "Sky Sport Football",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skyfootball.jpg",
-        genres: ["Sport", "Calcio"]
-    },
-    {
         id: "vavoo_SKY SPORT 4K|group:it",
         type: "tv",
         name: "Sky Sport 4K",
