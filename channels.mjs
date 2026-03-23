@@ -21,17 +21,17 @@ export const channels = [
         genres: ["Sport"],
     },
     {
-        id: "vavoo_SKY SPORT UNO|group:it",
-        type: "tv",
-        name: "Sky Sport Uno",
-        poster: "https://raw.githubusercontent.com/blvckroby/provaTV/main/skyuno.jpg",
-        genres: ["Sport"]
-    },
-    {
         id: "vavoo_SKY SPORT MOTOGP|group:it",
         type: "tv",
         name: "Sky Sport MotoGP",
         poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skymotogp.jpg",
+        genres: ["Sport"]
+    },
+    {
+        id: "vavoo_SKY SPORT TENNIS|group:it",
+        type: "tv",
+        name: "Sky Sport Tennis",
+        poster: "https://raw.githubusercontent.com/blvckroby/provaTV/main/skytennis.jpg",
         genres: ["Sport"]
     },
     {
