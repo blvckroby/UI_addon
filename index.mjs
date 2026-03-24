@@ -20,41 +20,9 @@ const manifest = {
 
 const builder = new addonBuilder(manifest);
 
-/*1️⃣ Catalogo
+//1️⃣ Catalogo
 builder.defineCatalogHandler(async () => {
     return { metas: channels };
-});*/
-
-builder.defineCatalogHandler((args) => {
-    const selectedCategory = args.extra?.category;
-
-    let filtered = channels;
-
-    if (selectedCategory) {
-        filtered = channels.filter(ch => ch.category === selectedCategory);
-    }
-
-    return {
-        metas: filtered.map(ch => ({
-            id: ch.id,
-            type: ch.type,
-            name: ch.name,
-            poster: ch.poster
-        })),
-
-        extra: {
-            category: [
-                "Rai",
-                "Mediaset",
-                "Sky",
-                "Sport",
-                "Cinema",
-                "Intrattenimento",
-                "News",
-                "Musica"
-            ]
-        }
-    };
 });
 
 // 2️⃣ Stream
