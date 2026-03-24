@@ -3,7 +3,7 @@ export const channels = [
         id: "vavoo_SKY SPORT F1|group:it",
         type: "tv",
         name: "Sky Sport F1",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skyf1.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skyf1.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/6/60/Sky_Sport_F1_-_Logo_2026.svg",
         description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
         genres: ["Sport"],
@@ -16,7 +16,7 @@ export const channels = [
         id: "vavoo_SKY SPORTS 24|group:it",
         type: "tv",
         name: "Sky Sport 24",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/sky24.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/sky24.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sky_Sport_24_-_Logo_2026.svg",
         description: "Il canale dedicato alle notizie 24h legata al mondo dello sport con dirette, analisi e contenuti esclusivi",
         genres: ["Sport"],
@@ -25,7 +25,7 @@ export const channels = [
         id: "vavoo_SKY SPORTS UNO|group:it",
         type: "tv",
         name: "Sky Sport Uno",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skyuno.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skyuno.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky_Sport_Uno_-_Logo_2026.svg",
         description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
         genres: ["Sport"],
@@ -35,7 +35,7 @@ export const channels = [
         id: "vavoo_SKY SPORTS F1|group:it",
         type: "tv",
         name: "Sky Sport F1",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skyf1.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skyf1.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/6/60/Sky_Sport_F1_-_Logo_2026.svg",
         description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
         genres: ["Sport"],
@@ -44,7 +44,7 @@ export const channels = [
         id: "vavoo_SKY SPORT MOTOGP|group:it",
         type: "tv",
         name: "Sky Sport MotoGP",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skymotogp.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skymotogp.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Sky_Sport_MotoGP_-_Logo_2026.svg",
         description: "Il canale dedicato alla MotoGP con dirette, analisi e contenuti esclusivi.",
         genres: ["Sport"]
@@ -53,7 +53,7 @@ export const channels = [
         id: "vavoo_SKY SPORT TENNIS|group:it",
         type: "tv",
         name: "Sky Sport Tennis",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skytennis.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skytennis.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/d/de/Sky_Sport_Tennis_-_Logo_2026.svg",
         description: "Il canale dedicato al Tennis con dirette, analisi e contenuti esclusivi.",
         genres: ["Sport"]
@@ -62,7 +62,7 @@ export const channels = [
         id: "vavoo_SKY SPORT ARENA|group:it",
         type: "tv",
         name: "Sky Sport Arena",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skyarena.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skyarena.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/3/31/Sky_Sport_Arena_-_Logo_2026.svg",
         description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
         genres: ["Sport"]
@@ -71,7 +71,7 @@ export const channels = [
         id: "vavoo_SKY SPORT CALCIO|group:it",
         type: "tv",
         name: "Sky Sport Calcio",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycalcio.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skycalcio.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/6/66/Sky_Sport_Calcio_-_Logo_2026.svg",
         description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
         genres: ["Sport", "Calcio"]
@@ -80,7 +80,7 @@ export const channels = [
         id: "vavoo_SKY SPORT 4K|group:it",
         type: "tv",
         name: "Sky Sport 4K",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/sky4k.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/sky4k.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/7/72/Sky_Sport_4K_-_Logo_2026.svg",
         description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
         genres: ["Sport", "4K"]
@@ -89,7 +89,7 @@ export const channels = [
         id: "vavoo_DAZN 1|group:it",
         type: "tv",
         name: "DAZN 1",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/dazn1.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/dazn1.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/a/a2/DAZN_1_Logo.svg",
         description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
         genres: ["Sport"]
@@ -98,7 +98,7 @@ export const channels = [
         id: "vavoo_DAZN 2|group:it",
         type: "tv",
         name: "DAZN 2",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/dazn2.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/dazn2.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/7/76/DAZN_2.svg",
         description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
         genres: ["Sport"]
@@ -107,7 +107,7 @@ export const channels = [
         id: "vavoo_SKY CINEMA UNO|group:it",
         type: "tv",
         name: "Sky Cinema Uno",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemauno.png",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skycinemauno.png",
         logo: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Sky_Cinema_Uno_-_Logo_2020.svg",
         description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
         category: "Cinema"
@@ -116,7 +116,7 @@ export const channels = [
         id: "vavoo_SKY CINEMA DUE|group:it",
         type: "tv",
         name: "Sky Cinema Due",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemadue.png",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skycinemadue.png",
         logo: "https://upload.wikimedia.org/wikipedia/commons/6/69/Sky_Cinema_Uno_%2B24_-_Logo_2021.svg",
         description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
         category: "Cinema"
@@ -125,7 +125,7 @@ export const channels = [
         id: "vavoo_SKY CINEMA ACTION|group:it",
         type: "tv",
         name: "Sky Cinema Action",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemaaction.png",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skycinemaaction.png",
         logo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Sky_Cinema_Action_-_2021_logo.png",
         description: "Il canale dedicato al cinema con film d'azione.",
         category: "Cinema"
@@ -134,7 +134,7 @@ export const channels = [
         id: "vavoo_SKY CINEMA COMEDY|group:it",
         type: "tv",
         name: "Sky Cinema Comedy",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemacomedy.png",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skycinemacomedy.png",
         logo: "https://upload.wikimedia.org/wikipedia/commons/6/64/Sky_Cinema_Comedy_-_Logo_2021.png",
         description: "Il canale dedicato al cinema con film di commedia.",
         category: "Cinema"
@@ -143,7 +143,7 @@ export const channels = [
         id: "vavoo_SKY CINEMA FAMILY|group:it",
         type: "tv",
         name: "Sky Cinema Family",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemafamily.png",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skycinemafamily.png",
         logo: "https://upload.wikimedia.org/wikipedia/it/4/4e/Sky_Cinema_Family_2021.svg",
         description: "Il canale dedicato al cinema con film da guardare in famiglia.",
         category: "Cinema"
@@ -152,7 +152,7 @@ export const channels = [
         id: "vavoo_SKY CINEMA ROMANCE|group:it",
         type: "tv",
         name: "Sky Cinema Romance",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemaromance.png",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skycinemaromance.png",
         logo: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Sky_Cinema_Romance_-_Logo_2021.png",
         description: "Il canale dedicato al cinema con film romantici.",
         category: "Cinema"
@@ -161,7 +161,7 @@ export const channels = [
         id: "vavoo_SKY CINEMA SUSPENSE|group:it",
         type: "tv",
         name: "Sky Cinema Suspense",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemasuspense.png",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skycinemasuspense.png",
         logo: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Sky_Cinema_Suspense_-_Logo_2021.png",
         description: "Il canale dedicato al cinema con film thriller e di suspance.",
         category: "Cinema"
@@ -170,7 +170,7 @@ export const channels = [
         id: "vavoo_SKY CINEMA DRAMA|group:it",
         type: "tv",
         name: "Sky Cinema Drama",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemadrama.png",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skycinemadrama.png",
         logo: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Sky_Cinema_Drama_-_Logo_2021.png",
         description: "Il canale dedicato al cinema con film drammatici.",
         category: "Cinema"
@@ -179,7 +179,7 @@ export const channels = [
         id: "vavoo_SKY CINEMA COLLECTION|group:it",
         type: "tv",
         name: "Sky Cinema Collection",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemacollection.png",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skycinemacollection.png",
         logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sky_Cinema_Collection_-_2021_logo.png",
         description: "Il canale dedicato al cinema con film da collezione.",
         category: "Cinema"
@@ -188,7 +188,7 @@ export const channels = [
         id: "vavoo_SKY CINEMA CLASSICS|group:it",
         type: "tv",
         name: "Sky Cinema Classics",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemaclassics.png",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/TV/cover/skycinemaclassics.png",
         logo: "https://upload.wikimedia.org/wikipedia/commons/6/60/Sky_Sport_F1_-_Logo_2026.svg",
         description: "Il canale dedicato al cinema con film classici.",
         category: "Cinema"
