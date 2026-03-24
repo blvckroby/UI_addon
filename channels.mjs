@@ -196,101 +196,17 @@ export const channels = [
     {
         id: "vavoo_RAI 1|group:it",
         type: "tv",
-        name: "Rai 1",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/rai1.jpg",
+        name: "RAI 1",
+        poster: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rai_1_-_Logo_2016.svg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rai_1_-_Logo_2016.svg",
-        description: "TRAMA: https://tvepg.eu/api/now?channel=rai-1",
-        category: "Rai"
-    },
-    {
-        id: "vavoo_RAI 2|group:it",
-        type: "tv",
-        name: "Rai 2",
-        poster: "URL_POSTER",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Rai_2_-_Logo_2016.svg",
-        description: "TRAMA: https://tvepg.eu/api/now?channel=rai-2",
-        category: "Rai"
-    },
-    {
-        id: "vavoo_RAI 3|group:it",
-        type: "tv",
-        name: "Rai 3",
-        poster: "URL_POSTER",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Rai_3_-_Logo_2016.svg",
-        description: "TRAMA: https://tvepg.eu/api/now?channel=rai-3",
-        category: "Rai"
-    },
-    {
-        id: "vavoo_RAI 4|group:it",
-        type: "tv",
-        name: "Rai 4",
-        poster: "URL_POSTER",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Rai_4_-_Logo_2016.svg",
-        description: "TRAMA: https://tvepg.eu/api/now?channel=rai-4",
-        category: "Rai"
-    },
-    {
-        id: "vavoo_RAI 5|group:it",
-        type: "tv",
-        name: "Rai 5",
-        poster: "URL_POSTER",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Rai_5_-_Logo_2016.svg",
-        description: "TRAMA: https://tvepg.eu/api/now?channel=rai-5",
-        category: "Rai"
-    },
-    {
-        id: "vavoo_RAI Movie|group:it",
-        type: "tv",
-        name: "Rai Movie",
-        poster: "URL_POSTER",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Rai_Movie_-_Logo_2016.svg",
-        description: "TRAMA: https://tvepg.eu/api/now?channel=rai-movie",
-        category: "Rai"
-    },
-    {
-        id: "vavoo_RAI Premium|group:it",
-        type: "tv",
-        name: "Rai Premium",
-        poster: "URL_POSTER",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Rai_Premium_-_Logo_2016.svg",
-        description: "TRAMA: https://tvepg.eu/api/now?channel=rai-premium",
-        category: "Rai"
-    },
-    {
-        id: "vavoo_RAI Gulp|group:it",
-        type: "tv",
-        name: "Rai Gulp",
-        poster: "URL_POSTER",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rai_Gulp_-_Logo_2016.svg",
-        description: "TRAMA: https://tvepg.eu/api/now?channel=rai-gulp",
-        category: "Rai"
-    },
-    {
-        id: "vavoo_RAI Yoyo|group:it",
-        type: "tv",
-        name: "Rai Yoyo",
-        poster: "URL_POSTER",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Rai_Yoyo_-_Logo_2016.svg",
-        description: "TRAMA: https://tvepg.eu/api/now?channel=rai-yoyo",
-        category: "Rai"
-    },
-    {
-        id: "vavoo_RAI News 24|group:it",
-        type: "tv",
-        name: "Rai News 24",
-        poster: "URL_POSTER",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Rai_News_24_-_Logo_2013.svg",
-        description: "TRAMA: https://tvepg.eu/api/now?channel=rai-news-24",
-        category: "Rai"
-    },
-    {
-    id: "vavoo_RAI ITALIA|group:it",
-    type: "tv",
-    name: "RAI ITALIA",
-    poster: "URL_POSTER",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png",
-    epg_id: "raiitalia",
-    category: "Rai"
+        epg_id: "rai1.it",
+        category: "Rai",
+        streams: [
+            {
+                title: "Stream 1",
+                url: "https://vavoo.to/vavoo-iptv/play/374675593c812bca5a0f0"
+            }
+        ]
     }
 
 ];
