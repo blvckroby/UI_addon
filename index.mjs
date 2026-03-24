@@ -61,25 +61,6 @@ builder.defineStreamHandler(async (args) => {
 builder.defineMetaHandler(async (args) => {
     const channel = channels.find(c => c.id === args.id);
 
-    if (channel) {
-        return {
-            meta: {
-                id: channel.id,        // ⚠️ STESSO ID TvVoo
-                type: "tv",
-                name: channel.name,
-                poster: channel.poster,   // tua immagine
-                background: channel.poster,
-                description: `${channel.name} – Live 🔴`
-            }
-        };
-    }
-
-    return { meta: null };
-});
-*/
-builder.defineMetaHandler(async (args) => {
-    const channel = channels.find(c => c.id === args.id);
-
     if (!channel) {
         return { meta: null };
     }
@@ -102,6 +83,38 @@ builder.defineMetaHandler(async (args) => {
                     released: "2026-03-24"
                 }
             ]
+        }
+    };
+});
+*/
+const xml2js = require("xml2js");
+
+async function getEPG(epgId) {
+    const xml = await fetch("https://raw.githubusercontent.com/qwertyuiop8899/TV/refs/heads/main/epg.xml").then(r => r.text());
+    const epg = await xml2js.parseStringPromise(xml);
+
+    const programmes = epg.tv.programme.filter(p => p.$.channel === epgId);
+
+    if (!programmes.length) return "Nessuna informazione EPG disponibile.";
+
+    const now = programmes[0];
+
+    return `
+In onda ora: ${now.title?.[0] || "N/A"}
+Trama: ${now.desc?.[0] || "N/A"}
+Dalle ${now.$.start} alle ${now.$.stop}
+`;
+}
+
+builder.defineMetaHandler(async (args) => {
+    const channel = channels.find(c => c.id === args.id);
+
+    const epg = await getEPG(channel.epg_id);
+
+    return {
+        meta: {
+            ...channel,
+            description: epg
         }
     };
 });
