@@ -25,7 +25,7 @@ builder.defineCatalogHandler(async () => {
     return { metas: channels };
 });
 
-// 2️⃣ Stream
+/* 2️⃣ Stream
 builder.defineStreamHandler(async (args) => {
     if (args.id === "vavoo_SKY SPORTS F1|group:it") {
         return {
@@ -39,9 +39,24 @@ builder.defineStreamHandler(async (args) => {
     }
 
     return { streams: [] };
+});*/
+builder.defineStreamHandler(async (args) => {
+    const channel = channels.find(c => c.id === args.id);
+
+    if (!channel || !channel.stream) return { streams: [] };
+
+    return {
+        streams: [
+            {
+                title: `${channel.name} – Live`,
+                url: channel.stream
+            }
+        ]
+    };
 });
 
-// 3️⃣ Meta
+
+/* 3️⃣ Meta
 builder.defineMetaHandler(async (args) => {
     const channel = channels.find(c => c.id === args.id);
 
@@ -60,6 +75,33 @@ builder.defineMetaHandler(async (args) => {
 
     return { meta: null };
 });
+*/
+builder.defineMetaHandler(async (args) => {
+    const channel = channels.find(c => c.id === args.id);
+
+    if (!channel) return { meta: null };
+
+    return {
+        meta: {
+            id: channel.id,
+            type: "tv",
+            name: channel.name,
+            poster: channel.poster,
+            background: channel.background || channel.poster,
+            logo: channel.logo,
+            description: channel.description,
+            videos: [
+                {
+                    id: "live",
+                    title: `${channel.name} – Live`,
+                    thumbnail: channel.poster,
+                    released: "2026-03-24"
+                }
+            ]
+        }
+    };
+});
+
 
 // 4️⃣ Avvio server
 serveHTTP(builder.getInterface(), { port: PORT });
