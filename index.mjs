@@ -87,53 +87,6 @@ builder.defineMetaHandler(async (args) => {
     };
 });
 */
-const manifest = {
-    id: "it.live.catalog",
-    version: "1.0.0",
-    name: "Live TV Italia",
-    description: "Catalogo TV italiano con EPG",
-    types: ["tv"],
-    catalogs: [
-        {
-            type: "tv",
-            id: "catalog_live_it",
-            name: "TV Italia"
-        }
-    ],
-    resources: ["catalog", "meta", "stream"]
-};
-
-const builder = new addonBuilder(manifest);
-
-/* ============================
-   CATALOGO CANALI (STATICO)
-   ============================ */
-
-const channels = [
-    {
-        id: "vavoo_RAI MOVIE|group:it",
-        type: "tv",
-        name: "RAI MOVIE",
-        poster: "URL_POSTER",
-        logo: "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png",
-        epg_id: "raimovie.it",
-        category: "Rai"
-    },
-    {
-        id: "vavoo_RAI ITALIA|group:it",
-        type: "tv",
-        name: "RAI ITALIA",
-        poster: "URL_POSTER",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png",
-        epg_id: "raiitalia",
-        category: "Rai"
-    }
-    // QUI AGGIUNGI TUTTI GLI ALTRI CANALI ITALIANI
-];
-
-/* ============================
-   LETTURA EPG XML (COMPATIBILE)
-   ============================ */
 
 async function getEPG(epgId) {
     const xmlUrl = "https://raw.githubusercontent.com/qwertyuiop8899/TV/refs/heads/main/epg.xml";
