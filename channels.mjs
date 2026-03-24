@@ -25,7 +25,7 @@ export const channels = [
         name: "Sky Sport Uno",
         poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skyuno.jpg",
         genres: ["Sport"],
-        streams: "https://cc1.screenistream.xyz:8080/stream/230/index.m3u8?token=T4Nz6WCt2Uwlqma4"
+        stream: "https://cc1.screenistream.xyz:8080/stream/230/index.m3u8?token=T4Nz6WCt2Uwlqma4"
     },
     {
         id: "vavoo_SKY SPORTS F1|group:it",
