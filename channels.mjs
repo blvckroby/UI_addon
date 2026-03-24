@@ -73,14 +73,14 @@ export const channels = [
         id: "vavoo_SKY CINEMA ACTION|group:it",
         type: "tv",
         name: "Sky Cinema Action",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/sky4k.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skyaction.jpg",
         genres: ["Cinema", "Azione"]
     },
     {
         id: "vavoo_SKY CINEMA COLLECTION|group:it",
         type: "tv",
         name: "Sky Cinema Collection",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/sky4k.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycollection.jpg",
         genres: ["Cinema"]
     }
 ];
