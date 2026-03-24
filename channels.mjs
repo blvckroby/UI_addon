@@ -8,9 +8,9 @@ export const channels = [
         description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
         genres: ["Sport"],
         streams: [
-  { title: "Prima scelta", url: "https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/v8sjYau-wLgawZi9Ws6G2fl7k-iqLcCqzTQhNcMMU7XcjGB4LTmuMfMP-R48w7hzQkEv3AJhYHuGsfZTKfcDFkdONziInc3SSBPSF5wtzZuLUDbpS74vB9DbBzVDUtYGqjtxUB3rYhTpawMQAES5nH7JMw9rgzkNHTtaVSWat5Mn2rxyVJFVnbLfgsQ9oQDrq49o_HPKMrpCwd5wW1PSmg1Yrf2QroPBCIU25sXfSH9D8JQn80egiVtGMsf1sORkhfLZrDH3G7mEPrL1Uj-UizuKB0P2ztvG7urbXJkdmXM/hls/index.m3u8" },
-  { title: "Seconda scelta", url: "https://cc1.screenistream.xyz:8080/stream/230/index.m3u8?token=T4Nz6WCt2Uwlqma4" }
-]
+                    { title: "Prima scelta", url: "https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/v8sjYau-wLgawZi9Ws6G2fl7k-iqLcCqzTQhNcMMU7XcjGB4LTmuMfMP-R48w7hzQkEv3AJhYHuGsfZTKfcDFkdONziInc3SSBPSF5wtzZuLUDbpS74vB9DbBzVDUtYGqjtxUB3rYhTpawMQAES5nH7JMw9rgzkNHTtaVSWat5Mn2rxyVJFVnbLfgsQ9oQDrq49o_HPKMrpCwd5wW1PSmg1Yrf2QroPBCIU25sXfSH9D8JQn80egiVtGMsf1sORkhfLZrDH3G7mEPrL1Uj-UizuKB0P2ztvG7urbXJkdmXM/hls/index.m3u8" },
+                    { title: "Seconda scelta", url: "https://cc1.screenistream.xyz:8080/stream/230/index.m3u8?token=T4Nz6WCt2Uwlqma4" }
+        ]
     },
     {
         id: "vavoo_SKY SPORTS 24|group:it",
@@ -20,11 +20,12 @@ export const channels = [
         genres: ["Sport"],
     },
     {
-        id: "vavoo_SKY SPORTS UNO|group:it",
+        id: "ui_SKY_SPORTS_UNO",
         type: "tv",
         name: "Sky Sport Uno",
         poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skyuno.jpg",
         genres: ["Sport"],
+        streams: "https://cc1.screenistream.xyz:8080/stream/230/index.m3u8?token=T4Nz6WCt2Uwlqma4"
     },
     {
         id: "vavoo_SKY SPORTS F1|group:it",
