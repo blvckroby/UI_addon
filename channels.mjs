@@ -1,12 +1,14 @@
 export const channels = [
     {
-  id: "vavoo_SKY SPORTS F1|group:it",
-  name: "Sky Sport F1",
-  poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/sky24.jpg",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/6/60/Sky_Sport_F1_-_Logo_2026.svg",
-  description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
-  stream: "https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/v8sjYau-wLgawZi9Ws6G2fl7k-iqLcCqzTQhNcMMU7XcjGB4LTmuMfMP-R48w7hzQkEv3AJhYHuGsfZTKfcDFkdONziInc3SSBPSF5wtzZuLUDbpS74vB9DbBzVDUtYGqjtxUB3rYhTpawMQAES5nH7JMw9rgzkNHTtaVSWat5Mn2rxyVJFVnbLfgsQ9oQDrq49o_HPKMrpCwd5wW1PSmg1Yrf2QroPBCIU25sXfSH9D8JQn80egiVtGMsf1sORkhfLZrDH3G7mEPrL1Uj-UizuKB0P2ztvG7urbXJkdmXM/hls/index.m3u8"
-},
+        id: "vavoo_SKY SPORTS F1|group:it",
+        type: "tv",
+        name: "Sky Sport F1",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/sky24.jpg",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/6/60/Sky_Sport_F1_-_Logo_2026.svg",
+        description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
+        genres: ["Sport"],
+        stream: "https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/v8sjYau-wLgawZi9Ws6G2fl7k-iqLcCqzTQhNcMMU7XcjGB4LTmuMfMP-R48w7hzQkEv3AJhYHuGsfZTKfcDFkdONziInc3SSBPSF5wtzZuLUDbpS74vB9DbBzVDUtYGqjtxUB3rYhTpawMQAES5nH7JMw9rgzkNHTtaVSWat5Mn2rxyVJFVnbLfgsQ9oQDrq49o_HPKMrpCwd5wW1PSmg1Yrf2QroPBCIU25sXfSH9D8JQn80egiVtGMsf1sORkhfLZrDH3G7mEPrL1Uj-UizuKB0P2ztvG7urbXJkdmXM/hls/index.m3u8",
+    },
     {
         id: "vavoo_SKY SPORTS 24|group:it",
         type: "tv",
