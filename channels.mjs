@@ -1,6 +1,6 @@
 export const channels = [
     {
-        id: "ui_SKY_SPORT_F1",
+        id: "vavoo_SKY SPORT F1|group:it",
         type: "tv",
         name: "Sky Sport F1",
         poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skyf1.jpg",
@@ -18,11 +18,11 @@ export const channels = [
         name: "Sky Sport 24",
         poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/sky24.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sky_Sport_24_-_Logo_2026.svg",
-        description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
+        description: "https://tvepg.eu/api/now?channel=sky-sport-24",
         genres: ["Sport"],
     },
     {
-        id: "ui_SKY_SPORTS_UNO",
+        id: "vavoo_SKY SPORTS UNO|group:it",
         type: "tv",
         name: "Sky Sport Uno",
         poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skyuno.jpg",
