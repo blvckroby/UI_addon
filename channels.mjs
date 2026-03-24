@@ -282,6 +282,15 @@ export const channels = [
         logo: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Rai_News_24_-_Logo_2013.svg",
         description: "TRAMA: https://tvepg.eu/api/now?channel=rai-news-24",
         category: "Rai"
-    },    
+    },
+    {
+    id: "vavoo_RAI ITALIA|group:it",
+    type: "tv",
+    name: "RAI ITALIA",
+    poster: "URL_POSTER",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png",
+    epg_id: "raiitalia",
+    category: "Rai"
+    }
 
 ];
