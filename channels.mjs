@@ -59,24 +59,6 @@ export const channels = [
         genres: ["Sport"]
     },
     {
-        id: "vavoo_DAZN 1|group:it",
-        type: "tv",
-        name: "DAZN 1",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/dazn1.jpg",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/a/a2/DAZN_1_Logo.svg",
-        description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
-        genres: ["Sport"]
-    },
-    {
-        id: "vavoo_DAZN 2|group:it",
-        type: "tv",
-        name: "DAZN 2",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/dazn2.jpg",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/7/76/DAZN_2.svg",
-        description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
-        genres: ["Sport"]
-    },
-    {
         id: "vavoo_SKY SPORT ARENA|group:it",
         type: "tv",
         name: "Sky Sport Arena",
@@ -102,6 +84,24 @@ export const channels = [
         logo: "https://upload.wikimedia.org/wikipedia/commons/7/72/Sky_Sport_4K_-_Logo_2026.svg",
         description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
         genres: ["Sport", "4K"]
+    },
+    {
+        id: "vavoo_DAZN 1|group:it",
+        type: "tv",
+        name: "DAZN 1",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/dazn1.jpg",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/a/a2/DAZN_1_Logo.svg",
+        description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
+        genres: ["Sport"]
+    },
+    {
+        id: "vavoo_DAZN 2|group:it",
+        type: "tv",
+        name: "DAZN 2",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/dazn2.jpg",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/7/76/DAZN_2.svg",
+        description: "Il canale dedicato alla Formula 1 con dirette, analisi e contenuti esclusivi.",
+        genres: ["Sport"]
     },
     {
         id: "vavoo_SKY CINEMA UNO|group:it",
@@ -197,7 +197,7 @@ export const channels = [
         id: "vavoo_RAI 1|group:it",
         type: "tv",
         name: "Rai 1",
-        poster: "URL_POSTER",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/rai1.jpg",
         logo: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rai_1_-_Logo_2016.svg",
         description: "TRAMA: https://tvepg.eu/api/now?channel=rai-1",
         category: "Rai"
