@@ -80,7 +80,9 @@ builder.defineMetaHandler(async (args) => {
 builder.defineMetaHandler(async (args) => {
     const channel = channels.find(c => c.id === args.id);
 
-    if (!channel) return { meta: null };
+    if (!channel) {
+        return { meta: null };
+    }
 
     return {
         meta: {
@@ -90,7 +92,8 @@ builder.defineMetaHandler(async (args) => {
             poster: channel.poster,
             background: channel.background || channel.poster,
             logo: channel.logo,
-            description: channel.description,
+            description: channel.description || `${channel.name} – Live`,
+            genres: channel.genres || ["TV"],
             videos: [
                 {
                     id: "live",
@@ -102,6 +105,7 @@ builder.defineMetaHandler(async (args) => {
         }
     };
 });
+
 
 
 // 4️⃣ Avvio server
