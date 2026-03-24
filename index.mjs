@@ -13,9 +13,6 @@ const manifest = {
     catalogs: [
         { type: "tv", id: "tvvoo-proxy", name: "UI Sport" }
     ],
-    "extra": [
-        { "name": "category", "isRequired": false }
-    ],
     resources: ["catalog", "stream", "meta"],
     types: ["movie", "series", "tv"],
     idPrefixes: ["tt", "tvvoo"]
