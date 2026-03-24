@@ -43,17 +43,18 @@ builder.defineStreamHandler(async (args) => {
 builder.defineStreamHandler(async (args) => {
     const channel = channels.find(c => c.id === args.id);
 
-    if (!channel || !channel.stream) return { streams: [] };
+    if (!channel || !channel.streams) {
+        return { streams: [] };
+    }
 
     return {
-        streams: [
-            {
-                title: `${channel.name} – Live`,
-                url: channel.stream
-            }
-        ]
+        streams: channel.streams.map(s => ({
+            title: `${channel.name} – ${s.title}`,
+            url: s.url
+        }))
     };
 });
+
 
 
 /* 3️⃣ Meta
