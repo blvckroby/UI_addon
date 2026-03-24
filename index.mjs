@@ -87,8 +87,6 @@ builder.defineMetaHandler(async (args) => {
     };
 });
 */
-import { addonBuilder } from "stremio-addon-sdk";
-
 const manifest = {
     id: "it.live.catalog",
     version: "1.0.0",
