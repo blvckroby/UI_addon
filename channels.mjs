@@ -73,7 +73,7 @@ export const channels = [
     id: "vavoo_SKY CINEMA UNO|group:it",
     type: "tv",
     name: "Sky Cinema Uno",
-    poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemauno.jpg",
+    poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemauno.png",
     category: "Cinema"
     },
     {
