@@ -81,6 +81,7 @@ export const channels = [
         type: "tv",
         name: "Sky Cinema Collection",
         poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycollection.jpg",
-        genres: ["Cinema"]
+        genres: ["Cinema"],
+        category: "Cinema"
     }
 ];
