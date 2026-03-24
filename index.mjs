@@ -32,20 +32,20 @@ builder.defineCatalogHandler(async () => {
    2️⃣ STREAM HANDLER (FACOLTATIVO)
    ============================ */
 
-// builder.defineStreamHandler(async (args) => {
-//     const channel = channels.find(c => c.id === args.id);
+builder.defineStreamHandler(async (args) => {
+     const channel = channels.find(c => c.id === args.id);
 
-//     if (!channel || !channel.streams) {
-//         return { streams: [] };
-//     }
+     if (!channel || !channel.streams) {
+         return { streams: [] };
+     }
 
-//     return {
-//         streams: channel.streams.map(s => ({
-//             title: `${channel.name} – ${s.title}`,
-//             url: s.url
-//         }))
-//     };
-// });
+     return {
+         streams: channel.streams.map(s => ({
+             title: `${channel.name} – ${s.title}`,
+             url: s.url
+         }))
+     };
+ });
 
 /* ============================
    3️⃣ FUNZIONE EPG (COMPATIBILE)
