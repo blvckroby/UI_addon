@@ -80,63 +80,63 @@ export const channels = [
         id: "vavoo_SKY CINEMA DUE|group:it",
         type: "tv",
         name: "Sky Cinema Due",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemadue.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemadue.png",
         category: "Cinema"
     },
     {
         id: "vavoo_SKY CINEMA ACTION|group:it",
         type: "tv",
         name: "Sky Cinema Action",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemaaction.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemaaction.png",
         category: "Cinema"
     },
     {
         id: "vavoo_SKY CINEMA COMEDY|group:it",
         type: "tv",
         name: "Sky Cinema Comedy",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemacomedy.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemacomedy.png",
         category: "Cinema"
     },
     {
         id: "vavoo_SKY CINEMA FAMILY|group:it",
         type: "tv",
         name: "Sky Cinema Family",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemafamily.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemafamily.png",
         category: "Cinema"
     },
     {
         id: "vavoo_SKY CINEMA ROMANCE|group:it",
         type: "tv",
         name: "Sky Cinema Romance",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemaromance.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemaromance.png",
         category: "Cinema"
     },
     {
         id: "vavoo_SKY CINEMA SUSPENSE|group:it",
         type: "tv",
         name: "Sky Cinema Suspense",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemasuspense.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemasuspense.png",
         category: "Cinema"
     },
     {
         id: "vavoo_SKY CINEMA DRAMA|group:it",
         type: "tv",
         name: "Sky Cinema Drama",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemadrama.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemadrama.png",
         category: "Cinema"
     },
     {
         id: "vavoo_SKY CINEMA COLLECTION|group:it",
         type: "tv",
         name: "Sky Cinema Collection",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemacollection.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemacollection.png",
         category: "Cinema"
     },
     {
         id: "vavoo_SKY CINEMA CLASSICS|group:it",
         type: "tv",
         name: "Sky Cinema Classics",
-        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemaclassics.jpg",
+        poster: "https://raw.githubusercontent.com/blvckroby/tnb/master/skycinemaclassics.png",
         category: "Cinema"
     },
     
