@@ -15,7 +15,7 @@ const manifest = {
     ],
     resources: ["catalog", "stream", "meta"],
     types: ["movie", "series", "tv"],
-    idPrefixes: ["tt", "tvvoo"]
+    idPrefixes: ["tt", "tvvoo", "ui"]
 };
 
 const builder = new addonBuilder(manifest);
